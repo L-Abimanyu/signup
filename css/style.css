@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+body{
+    background-image: url(/css/bg.jpeg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+ }
+
+ form{
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    
+ }
+
+h1{
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px ;
+    opacity: .7;
+    font-family: 'Permanent Marker', cursive;
+}
+
+label{
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+    opacity: .8;
+    font-family: 'Spline Sans Mono', monospace;
+}
+input{
+    font-size: 18px;
+   opacity: 0.6;
+    width: 80%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    color: white;
+    
+
+}
+button{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    opacity: .8;
+}
+h4{
+    color: white;
+    margin-left: 70px;
+    font-size: 20px;
+    font-family: 'Tiro Kannada', serif;
+    opacity: .8;
+}
